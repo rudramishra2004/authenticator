@@ -10,7 +10,7 @@ let port = process.env.PORT || 5000
 let app = express()
 app.use(express.json())
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://authenticator-7s7n.onrender.com",
     credentials:true
 }))
 app.use(cookieParser())
