@@ -6,7 +6,7 @@ export const dataContext = createContext()
 function UserContext({children}) {
   let navigate = useNavigate()
   let [userData,setUserData] = useState(null)
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = "https://authenticator-backend-3zg8.onrender.com"
 
     const getUserData = async()=>{
       try {
